@@ -100,7 +100,7 @@ const Page = () => {
         <img src={"/Logo2.jpeg"} alt="logo" className="h-14" />
         <div
           className="w-full mt-[2rem] flex gap-4 p-2 overflow-hidden h-full"
-          ref={containerRef}
+          // ref={containerRef}
           style={{ whiteSpace: "nowrap" }}
         >
           {data.map((item, index) => (
